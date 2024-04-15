@@ -18,12 +18,12 @@ public class ReportController {
         return reportService.listReport();
     }
 
-    @GetMapping("/report")
+    @GetMapping("/report/report-by-name/{name}")
     public Report getReportByName(String name) {
         return reportService.getReportByName(name);
     }
 
-    @PostMapping("/report")
+    @PostMapping("/report/add-report")
     public void addReport(Report report){reportService.createReport(report);}
 
     @PostMapping("/report")

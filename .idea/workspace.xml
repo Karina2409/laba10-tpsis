@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6db2fb4e-eeac-4bce-87f5-699be5b48ae4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/ITextPdfCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reports/ITextPdfCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reports/PdfReportGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reports/PdfReportGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +66,9 @@
       <workItem from="1713163353615" duration="5388000" />
       <workItem from="1713169623630" duration="2497000" />
       <workItem from="1713179293336" duration="4119000" />
-      <workItem from="1713185043484" duration="3209000" />
+      <workItem from="1713185043484" duration="3576000" />
+      <workItem from="1713201098140" duration="352000" />
+      <workItem from="1713207650221" duration="1707000" />
     </task>
     <servers />
   </component>

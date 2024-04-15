@@ -11,10 +11,8 @@ public class PdfReportGenerator extends ReportGenerator {
 
         @Override
         public String generate (String data,int month){
-            // ... Преобразовать data в формат, понятный pdfCreator
             byte[] reportData = generateReportData(data, month);
 
-            // ... Сгенерировать PDF-отчет из reportData
             String pdfFilePath = pdfCreator.createPdf(reportData);
 
             return pdfFilePath;

@@ -22,6 +22,6 @@ public class PartnersController {
         return partnersService.getPartnerByName(name);
     }
 
-    @PostMapping("/partner")
+    @PostMapping("/partner/add-partner")
     public void addPartner(Partner partner){partnersService.createPartner(partner);}
 }

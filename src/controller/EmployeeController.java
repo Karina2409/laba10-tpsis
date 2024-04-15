@@ -23,6 +23,6 @@ public class EmployeeController {
         return employeeService.getEmployeeByLogin(login);
     }
 
-    @PostMapping("/employee")
+    @PostMapping("/employee/change-role")
     public void changeRole(@PathVariable String login){employeeService.changeEmployeeRole(login);}
 }

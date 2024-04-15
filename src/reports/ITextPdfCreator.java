@@ -14,9 +14,6 @@ public class ITextPdfCreator implements PdfCreator {
             PdfWriter.getInstance(document, outputStream);
             document.open();
 
-            // ... Добавить контент в PDF-отчет
-            // ... (например, текст, изображения, таблицы)
-
             document.close();
 
             return Base64.getUrlEncoder().encodeToString(outputStream.toByteArray());
