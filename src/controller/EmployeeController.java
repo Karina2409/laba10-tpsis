@@ -9,7 +9,7 @@ import java.util.List;
 @RestController
 @RequestMapping(path = "/api/v1/")
 public class EmployeeController {
-    @Autowired  //аннотация Spring Framework, используемая для автоматического внедрения зависимостей
+    @Autowired
     private EmployeeService employeeService;
 
     // получить всех пользователей
@@ -24,5 +24,5 @@ public class EmployeeController {
     }
 
     @PostMapping("/employee")
-    public void changeRole(@PathVariable String login){employeeService.changeEmployeeRole(login)}
+    public void changeRole(@PathVariable String login){employeeService.changeEmployeeRole(login);}
 }
