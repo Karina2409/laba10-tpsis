@@ -33,7 +33,7 @@ public class Employee {
     @Column
     private String role;
 
-    public Employee() {
+    public Employee(String login, String password, String email) {
     }
 
     public Employee(String login, String password, String surname, String name, String otchestvo, String email, String adress, String phone_number, float oklad, String post, String role) {
