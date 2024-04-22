@@ -1,4 +1,4 @@
-package service;
+package partner;
 
 import java.util.Map;
 

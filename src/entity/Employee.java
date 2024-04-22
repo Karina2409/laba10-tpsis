@@ -49,4 +49,8 @@ public class Employee {
         this.post = post;
         this.role = role;
     }
+
+    public Employee() {
+
+    }
 }

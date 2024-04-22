@@ -1,9 +1,8 @@
 package controller;
 
-import entity.Product;
 import entity.Report;
 import org.springframework.beans.factory.annotation.Autowired;
-import service.ReportService;
+import partner.ReportService;
 
 import java.util.List;
 

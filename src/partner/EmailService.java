@@ -1,4 +1,4 @@
-package service;
+package partner;
 
 import entity.Email;
 import entity.Employee;

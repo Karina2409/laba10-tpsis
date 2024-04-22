@@ -2,7 +2,7 @@ package controller;
 
 import entity.Raw;
 import org.springframework.beans.factory.annotation.Autowired;
-import service.RawService;
+import partner.RawService;
 
 import java.util.List;
 

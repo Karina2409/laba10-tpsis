@@ -2,7 +2,7 @@ package controller;
 
 import entity.Partner;
 import org.springframework.beans.factory.annotation.Autowired;
-import service.PartnersService;
+import partner.PartnersService;
 
 import java.util.List;
 

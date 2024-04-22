@@ -1,4 +1,4 @@
-package service;
+package partner;
 
 import entity.Raw;
 import lombok.RequiredArgsConstructor;
